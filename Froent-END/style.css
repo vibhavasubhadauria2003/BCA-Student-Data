@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(193, 227, 196);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin: 10px;
+    border: 2px solid black;
+    height: 100%;
+}
+.left{
+    margin: 2vw;
+}
+.pofile-container{
+    margin: 5vw;
+    width: 18vw;
+    height: 18vw;
+}
+.pofile-container img{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 150px;
+    object-fit: cover;
+}
+.about-container{
+    width: 24vw;
+    padding: 2vw;
+}
+.about{
+    font-size: 1.4vw;
+    word-spacing: 1.3vw;
+}
+.right{
+    margin: 2vw;
+    margin-left: 0vw;
+    width: 65vw;
+}
+.name-container{
+    margin: 1vw;
+    padding: 1vw;
+}
+.name{
+    font-size: 3vw;
+    /* text-align: center; */
+}
+.personal-info-container{
+    margin: .5vw;
+}
+.personal-info-heading{
+    margin: .2vw;
+}
+.personal-info{
+    margin: 1vw;
+}
