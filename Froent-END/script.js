@@ -84,22 +84,22 @@ function createTrmplate(
                 {
                     let dateofbirth=document.createElement("div");
                     dateofbirth.innerHTML=`Born : ${dob}`;
-                    dateofbirth.setAttribute("class","DOB red-border font3");
+                    dateofbirth.setAttribute("class","DOB red-border font3 common-personal-info");
                     document.querySelector(".personal-info").append(dateofbirth);
 
                     let fatherName=document.createElement("div");
                     fatherName.innerHTML=`Father's name : ${father_name}`;
-                    fatherName.setAttribute("class","father-name red-border font3");
+                    fatherName.setAttribute("class","father-name red-border font3 common-personal-info");
                     document.querySelector(".personal-info").append(fatherName);
 
                     let motherName=document.createElement("div");
                     motherName.innerHTML=`Mother's name : ${mother_name}`;
-                    motherName.setAttribute("class","mother-name red-border font3");
+                    motherName.setAttribute("class","mother-name red-border font3 common-personal-info");
                     document.querySelector(".personal-info").append(motherName);
 
                     let place=document.createElement("div");
                     place.innerHTML=`Location : ${user_location}`;
-                    place.setAttribute("class","location red-border font3");
+                    place.setAttribute("class","location red-border font3 common-personal-info");
                     document.querySelector(".personal-info").append(place);
                 }
             }

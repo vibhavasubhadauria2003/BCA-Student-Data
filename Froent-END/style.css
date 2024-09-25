@@ -53,6 +53,9 @@ body{
     font-size: 3vw;
     /* text-align: center; */
 }
+.profession{
+    font-size: 1.3vw;
+}
 .personal-info-container{
     margin: .5vw;
     margin-left: 3vw;
@@ -60,7 +63,11 @@ body{
 }
 .personal-info-heading{
     margin: .2vw;
+    font-size: 2vw;
 }
 .personal-info{
     margin: 1vw;
+}
+.common-personal-info{
+    font-size: 1.2vw;
 }
