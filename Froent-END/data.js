@@ -2,7 +2,7 @@ export const profile_link='https://static.toiimg.com/thumb/msid-111741230,width-
 
 export const about='Rohit Gurunath Sharma is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International matches.'
 
-export const name='Rohit Sharma'
+export const user_name='Rohit Sharma'
 
 export const profession='Indian cricketer'
 
@@ -12,4 +12,4 @@ export const father_name='Gurunath Sharma'
 
 export const mother_name='Purnima Sharma'
 
-export const location='Mumbai'
+export const user_location='Mumbai'
