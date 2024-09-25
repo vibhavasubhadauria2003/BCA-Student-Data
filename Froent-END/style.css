@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(193, 227, 196);
+    background-color: rgb(255, 231, 231);
 }
 *{
     margin: 0;
@@ -9,19 +9,25 @@ body{
     margin: 10px;
     border: 2px solid black;
     height: 100%;
+    border-radius: 1.5vw;
 }
 .left{
     margin: 2vw;
+    /* background-color: #272727;
+    border-radius: 2vw; */
 }
 .pofile-container{
-    margin: 5vw;
+    margin: 4.6vw;
     width: 18vw;
     height: 18vw;
+    padding: .4vw;
+    border-radius: 20vw;
+    background-color: #c2c2c2;
 }
 .pofile-container img{
     width: 18vw;
     height: 18vw;
-    border-radius: 150px;
+    border-radius: 20vw;
     object-fit: cover;
 }
 .about-container{
@@ -36,6 +42,8 @@ body{
     margin: 2vw;
     margin-left: 0vw;
     width: 65vw;
+    background-color: #272727;
+    border-radius: 2vw;
 }
 .name-container{
     margin: 1vw;
@@ -47,6 +55,8 @@ body{
 }
 .personal-info-container{
     margin: .5vw;
+    margin-left: 3vw;
+    display: inline-block;
 }
 .personal-info-heading{
     margin: .2vw;
