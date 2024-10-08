@@ -1,0 +1,19 @@
+{
+  "name": "bca-student-data",
+  "version": "1.0.0",
+  "description": "to serve data of bca students",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Vibhavau Bhadauria",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  }
+}
