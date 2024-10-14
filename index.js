@@ -39,7 +39,7 @@ app.get("/Rohit_Sharma",(req,res)=>{
 })
 app.get("/Akhil",(req,res)=>{
     res.render('index',{
-        profile_link:'rohit-sharma.WEBP',
+        profile_link:'fdgfdg.jpg',
         about:'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
         user_name:'Akhil Pratap Singh',
         profession:'Student',
