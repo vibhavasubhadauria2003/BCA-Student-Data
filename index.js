@@ -15,7 +15,7 @@ app.get('/profile/:n',(req,res)=>{
 
 app.get("/Vibhavasu",(req,res)=>{
     res.render('index',{
-        profile_link:'vibhavasu.jpg',
+        profile_link:'/images/vibhavasu.jpg',
         about:'Vibahvasu Bhadauria Student of DSVV. Currently persuing BCA.',
         user_name:'Vibhavasu Bhadauria',
         profession:'Student',
@@ -27,7 +27,7 @@ app.get("/Vibhavasu",(req,res)=>{
 })
 app.get("/Rohit_Sharma",(req,res)=>{
     res.render('index',{
-        profile_link:'rohit-sharma.WEBP',
+        profile_link:'/images/rohit-sharma.WEBP',
         about:'Rohit Gurunath Sharma is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International matches.',
         user_name:'Rohit Sharma',
         profession:'Indian Cricketer',
@@ -39,7 +39,7 @@ app.get("/Rohit_Sharma",(req,res)=>{
 })
 app.get("/Akhil",(req,res)=>{
     res.render('index',{
-        profile_link:'fdgfdg.jpg',
+        profile_link:'/images/akhil.jpg',
         about:'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
         user_name:'Akhil Pratap Singh',
         profession:'Student',
