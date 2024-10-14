@@ -37,6 +37,18 @@ app.get("/Rohit_Sharma",(req,res)=>{
         user_location:'Mumbai'
     });
 })
+app.get("/Akhil",(req,res)=>{
+    res.render('index',{
+        profile_link:'rohit-sharma.WEBP',
+        about:'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+        user_name:'Akhil Pratap Singh',
+        profession:'Student',
+        dob:'21 August 2005',
+        father_name:'Abnish Kumar',
+        mother_name:'Kirti Singh',
+        user_location:'Auraiya'
+    });
+})
 
 app.listen(port,()=>{
     console.log(`Server runing at ${port}`)
