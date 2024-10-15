@@ -39,13 +39,13 @@ const abhinav=new UserData(
 const anshuman=new UserData(
     '/Anshuman',
     '/images/anshuman.jpg',
-    'Vibahvasu Bhadauria Student of DSVV. Currently persuing BCA.',
+    'Anshuman Thakur Student of DSVV. Currently persuing BCA. Expert Photographer, Photoeditor.',
     'Anshuman Thakur',
     'Student',
-    '13 April 2003',
-    'Prabodh Kumar Bhadauria',
-    'Seema Bhadauria',
-    'Mainpuri'
+    '05 July 2003',
+    'Prahalad Thakur',
+    'Anjila Devi',
+    'Darbhanga, Bihar'
 )
 const tarun=new UserData(
     '/Tarun',
