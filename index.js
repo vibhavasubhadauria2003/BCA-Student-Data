@@ -1,19 +1,8 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
 import { app } from "./app.js";
-import { vibhavasu,akhil,rohit_sharma,sarthak } from './data.js';
+import { StudentData } from './data.js';
 
 const port = 7000
-
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-
-
 app.set('view engine', 'ejs');
-// app.get('/profile/:n',(req,res)=>{
-//     res.send(`Value you send to page is ${req.params.n}`);
-// })
 
 function serve(name,data){
     app.get(name,(req,res)=>{
@@ -21,6 +10,23 @@ function serve(name,data){
     })
 }
 
+StudentData.forEach(element => {
+    serve(element.servename,element);
+});
+
+app.listen(port,()=>{
+    console.log(`Server runing at ${port}`)
+})
+
+// import path from 'path';
+// import { fileURLToPath } from 'url';
+
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
+
+// app.get('/profile/:n',(req,res)=>{
+//     res.send(`Value you send to page is ${req.params.n}`);
+// })
 // app.get("/Vibhavasu",(req,res)=>{
 //     res.render('index',vibhavasu);
 // })
@@ -31,12 +37,7 @@ function serve(name,data){
 //     res.render('index',akhil);
 // })
 
-serve("/Akhil",akhil);
-serve("/Vibhavasu",vibhavasu);
-serve("/Rohit-Sharma",rohit_sharma);
-serve("/Sarthak",sarthak)
-
-
-app.listen(port,()=>{
-    console.log(`Server runing at ${port}`)
-})
+// serve(akhil.servename,akhil);
+// serve(vibhavasu.servename,vibhavasu);
+// serve(rohit_sharma.servename,rohit_sharma);
+// serve(sarthak.servename,sarthak)
