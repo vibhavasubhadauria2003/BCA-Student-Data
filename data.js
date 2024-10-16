@@ -39,7 +39,7 @@ const abhinav=new UserData(
 const anshuman=new UserData(
     '/Anshuman',
     '/images/anshuman.jpg',
-    'Anshuman Thakur Student of DSVV. Currently persuing BCA. Expert Photographer, Photoeditor.',
+    'Anshuman Thakur Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar. Expert Photographer, Photoeditor.',
     'Anshuman Thakur',
     'Student',
     '05 July 2003',
@@ -72,13 +72,13 @@ const anupam=new UserData(
 const akhil=new UserData(
     '/Akhil',
     '/images/akhil.jpg',
-    'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+    'Akhil Pratap Singh Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Akhil Pratap Singh',
     'Student',
     '21 August 2005',
     'Abnish Kumar',
     'Kirti Singh',
-    'Auraiya'
+    'Auraiya, Uttar Pradesh'
 )
 const sadgyan=new UserData(
     '/Sadgyan',
@@ -94,13 +94,13 @@ const sadgyan=new UserData(
 const aman=new UserData(
     '/Aman',
     '/images/aman.jpg',
-    'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+    'Aman Gupta Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Aman Gupta',
     'Student',
-    '21 August 2005',
-    'Abnish Kumar',
-    'Kirti Singh',
-    'Auraiya'
+    '19 Jun 2002',
+    'Prahalad Kumar Gupta',
+    'Anita Devi',
+    'Aurangabad, Bihar'
 )
 const suryakant=new UserData(
     '/Suryakant',
@@ -144,40 +144,40 @@ const prakhar=new UserData(
     '21 August 2005',
     'Abnish Kumar',
     'Kirti Singh',
-    'Auraiya'
+    'Auraiya, Uttar Pradesh'
 )
 const yashwant=new UserData(
     '/Yashwant',
     '/images/akhil.jpg',
-    'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+    'Yashwant Giri Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Yashwant Giri',
     'Student',
-    '21 August 2005',
-    'Abnish Kumar',
-    'Kirti Singh',
-    'Auraiya'
+    '14 July 2004',
+    'Jitendra Giri',
+    'Sambhavati Devi',
+    'Siddhardh Nagar, Uttar Pradesh'
 )
 const vibhavasu=new UserData(
     '/Vibhavasu',
     '/images/vibhavasu.jpg',
-    'Vibahvasu Bhadauria Student of DSVV. Currently persuing BCA.',
+    'Vibhavasu Bhadauria Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Vibhavasu Bhadauria',
     'Student',
     '13 April 2003',
     'Prabodh Kumar Bhadauria',
     'Seema Bhadauria',
-    'Mainpuri'
+    'Mainpuri, Uttar Pradesh'
 )
 const sarthak=new UserData(
     '/Sarthak',
     '/images/sarthak.jpg',
-    'Sarthak Shukla has a unique personality, I can sleep whole day and night.',
+    'Sarthak Shukla Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Sarthak Shukla',
     'Student',
     '03 June 2003',
     'Shivakant Shukla',
     'Kalpna Shukla',
-    'Prayagraj'
+    'Prayagraj, Uttar Pradesh'
 )
 const kamal=new UserData(
     '/Kamal',

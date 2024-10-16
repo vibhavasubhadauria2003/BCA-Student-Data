@@ -9,6 +9,10 @@ function serve(name,data){
         res.render('index',data);
     })
 }
+app.get("/",(req,res)=>{
+    res.render('menu');
+})
+
 
 StudentData.forEach(element => {
     serve(element.servename,element);
