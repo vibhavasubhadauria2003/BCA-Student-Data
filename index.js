@@ -10,7 +10,7 @@ function serve(name,data){
     })
 }
 app.get("/",(req,res)=>{
-    res.render('menu');
+    res.render('menu',{ StudentData: StudentData });
 })
 
 
