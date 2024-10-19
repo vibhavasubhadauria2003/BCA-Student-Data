@@ -105,13 +105,13 @@ const aman=new UserData(
 const suryakant=new UserData(
     '/Suryakant',
     '/images/suryakant.jpg',
-    'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+    'Suryakant Sahu Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Suryakant Sahu',
     'Student',
-    '21 August 2005',
-    'Abnish Kumar',
-    'Kirti Singh',
-    'Auraiya'
+    '03 May 2005',
+    'Shivnandan Sahu',
+    'Babita Sahu',
+    'Gariyaband, Chattisgarh'
 )
 const shivam=new UserData(
     '/Shivam',
@@ -127,13 +127,13 @@ const shivam=new UserData(
 const omkar=new UserData(
     '/Omkar',
     '/images/akhil.jpg',
-    'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
+    'Omkar Kumar Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Omkar Kumar',
     'Student',
-    '21 August 2005',
-    'Abnish Kumar',
-    'Kirti Singh',
-    'Auraiya'
+    '12 May 2005',
+    'Mukesh Singh',
+    'Annu Devi',
+    'Barbigha, Bihar'
 )
 const prakhar=new UserData(
     '/Prakhar',
@@ -192,4 +192,4 @@ const kamal=new UserData(
 )
 
 
-export const StudentData=[rohit_sharma,abhinav,anshuman,tarun,anupam,akhil,sadgyan,aman,suryakant,shivam,omkar,prakhar,yashwant,vibhavasu,sarthak,kamal];
+export const StudentData=[abhinav,anshuman,tarun,anupam,akhil,sadgyan,aman,suryakant,shivam,omkar,prakhar,yashwant,vibhavasu,sarthak,kamal];

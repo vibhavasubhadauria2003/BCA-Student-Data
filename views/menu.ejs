@@ -11,7 +11,12 @@
     <div>
         <% StudentData.forEach(function(student){ %>
         <div class="student border-box red-border">
-            <a class="student-name font1 red-border" href="http://localhost:7000<%= student.servename%>"><%= student.user_name%></a>
+            <div class="student-img-container red-border">
+                <img class="red-border" src="<%= student.profile_link %>" alt="error">
+            </div>
+            <div class="student-name-container red-border">
+                <a class="student-name font1 red-border" href="http://localhost:7000<%= student.servename%>"><%= student.user_name%></a>
+            </div>
         </div>
         <% }); %>
     </div>
