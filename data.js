@@ -49,18 +49,18 @@ const anshuman=new UserData(
 )
 const tarun=new UserData(
     '/Tarun',
-    '/images/vibhavasu.jpg',
-    'Vibahvasu Bhadauria Student of DSVV. Currently persuing BCA.',
-    'Tarun Prajapati',
+    '/images/tarun.jpg',
+    'Tarun Kumar Singh Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
+    'Tarun Kumar',
     'Student',
-    '13 April 2003',
-    'Prabodh Kumar Bhadauria',
-    'Seema Bhadauria',
-    'Mainpuri'
+    '22 February 2002',
+    'Angad Prasad',
+    'Prabhavati',
+    'Balrampur, Uttar Pradesh'
 )
 const anupam=new UserData(
     '/Anupam',
-    '/images/vibhavasu.jpg',
+    '/images/unknown.jpg',
     'Vibahvasu Bhadauria Student of DSVV. Currently persuing BCA.',
     'Anupam Raj',
     'Student',
@@ -82,7 +82,7 @@ const akhil=new UserData(
 )
 const sadgyan=new UserData(
     '/Sadgyan',
-    '/images/akhil.jpg',
+    '/images/unknown.jpg',
     'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
     'Sadgyan Singh',
     'Student',
@@ -115,7 +115,7 @@ const suryakant=new UserData(
 )
 const shivam=new UserData(
     '/Shivam',
-    '/images/akhil.jpg',
+    '/images/shivam.png',
     'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
     'Shivam Sah',
     'Student',
@@ -126,7 +126,7 @@ const shivam=new UserData(
 )
 const omkar=new UserData(
     '/Omkar',
-    '/images/akhil.jpg',
+    '/images/unknown.jpg',
     'Omkar Kumar Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Omkar Kumar',
     'Student',
@@ -137,7 +137,7 @@ const omkar=new UserData(
 )
 const prakhar=new UserData(
     '/Prakhar',
-    '/images/akhil.jpg',
+    '/images/unknown.jpg',
     'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
     'Prakhar Saxena',
     'Student',
@@ -148,7 +148,7 @@ const prakhar=new UserData(
 )
 const yashwant=new UserData(
     '/Yashwant',
-    '/images/akhil.jpg',
+    '/images/unknown.jpg',
     'Yashwant Giri Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Yashwant Giri',
     'Student',
@@ -181,7 +181,7 @@ const sarthak=new UserData(
 )
 const kamal=new UserData(
     '/Kamal',
-    '/images/akhil.jpg',
+    '/images/unknown.jpg',
     'Akhil Pratap Singh Student of DSVV. Currently persuing BCA.',
     'Kamal Singla',
     'Student',
@@ -192,4 +192,4 @@ const kamal=new UserData(
 )
 
 
-export const StudentData=[abhinav,anshuman,tarun,anupam,akhil,sadgyan,aman,suryakant,shivam,omkar,prakhar,yashwant,vibhavasu,sarthak,kamal];
+export const StudentData=[rohit_sharma,abhinav,anshuman,tarun,anupam,akhil,sadgyan,aman,suryakant,shivam,omkar,prakhar,yashwant,vibhavasu,sarthak,kamal];
