@@ -19,6 +19,7 @@ body{
 }
 .student-img-container img{
     width: 7vw;
+    height: 7vw;
     border-radius: 10vw;
 }
 .student-name-container{
