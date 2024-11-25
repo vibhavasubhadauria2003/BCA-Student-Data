@@ -4,18 +4,18 @@ import { StudentData } from './data.js';
 const port = 7000
 app.set('view engine', 'ejs');
 
-function serve(name,data){
-    app.get(name,(req,res)=>{
+app.get("/",(req,res)=>{
+    res.render('menu',{ StudentData: StudentData });
+}) 
+
+function serve(data){
+    app.get(data.servename,(req,res)=>{
         res.render('index',data);
     })
 }
-app.get("/",(req,res)=>{
-    res.render('menu',{ StudentData: StudentData });
-})
-
 
 StudentData.forEach(element => {
-    serve(element.servename,element);
+    serve(element);
 });
 
 app.listen(port,()=>{
