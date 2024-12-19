@@ -10,4 +10,4 @@ import userRouter from './router.js'
 // use of router
 app.use('/users',userRouter)
 
-export {app}
+export {app};
