@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { StudentData } from "../../data.js";
+import { StudentData } from "../../public/data/data.js";
 import { userServing } from "../controllers/user.controller.js";
 
 const router= Router();

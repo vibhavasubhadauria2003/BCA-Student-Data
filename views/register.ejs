@@ -12,15 +12,15 @@
             <a href="http://localhost:7000/menu">Menu</a>
         </div>
     </div>
-    <form action="">
+    <form action="/submit" method="POST" >
         <div class="register-box">
             <div>
-                <label for="profile_link">Profile Photo</label>
-                <input type="file" name="profile_link" id="profile_link">
+                <label for="profileImage">Profile Photo</label>
+                <input type="file" name="profileImage" id="profileImage" class="profileImage">
             </div>
             <div>
                 <label for="about">Tell me about you</label>
-                <textarea name="about" id="about" class="about"></textarea>
+                <input type="text" id="about" class="about" name="about">
             </div>
             <div>
                 <label for="fullname">Full Name</label>
@@ -47,10 +47,11 @@
                 <input type="text" id="user_location" class="user_location" name="user_location">
             </div>
             <div>
-                <button type="submit">Register</button>
+                <button type="submit" id="Register">Register</button>
             </div>
         </div>
     </form>
     
 </body>
+<!-- <script src="/public/js/registerUser.js"></script> -->
 </html>

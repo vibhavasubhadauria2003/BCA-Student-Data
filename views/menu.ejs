@@ -17,10 +17,10 @@
         <% StudentData.forEach(function(student){ %>
         <div class="student border-box red-border">
             <div class="student-img-container red-border">
-                <img class="red-border" src="<%= student.profile_link %>" alt="error">
+                <img class="red-border" src="<%= student.profileImage %>" alt="error">
             </div>
             <div class="student-name-container red-border">
-                <a class="student-name font1 red-border" href="http://localhost:7000/users<%= student.servename%>"><%= student.user_name%></a>
+                <a class="student-name font1 red-border" href="http://localhost:7000/users<%= student.servename%>"><%= student.fullname%></a>
             </div>
         </div>
         <% }); %>

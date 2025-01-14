@@ -1,7 +1,18 @@
 import { app } from "./app.js";
+import dotenv from "dotenv";
+import connectDB from "./db/index.js";
 
-const port = 7000
+dotenv.config({
+  path: "./env",
+});
 
-app.listen(port,()=>{
-    console.log(`Server runing at ${port}`)
-})
+connectDB()
+  .then(() => {
+    app.listen(process.env.PORT || 7000, () => {
+      console.log(`Server is runing at port : ${process.env.PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.log("DB connection failed", err);
+  });
+

@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= user_name %></title>
+    <title><%= fullname %></title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/utility.css">
 </head>
 <body id="body">
+    <div>
+        <div>
+            <a href="http://localhost:7000/menu">Menu</a>
+        </div>
+    </div>
       <div class="card flex po-relative bgDark border-box">
         <div class="left red-border">
             <div class="pofile-container red-border">
-                <img src="<%= profile_link %>" 
+                <img src="<%= profileImage %>" 
                 alt="error image not found">
             </div>
             <div class="about-container red-border">
@@ -20,7 +25,7 @@
         </div>
         <div class="right red-border">
             <div class="name-container red-border">
-                <h1 class="name font2 red-border"><%= user_name %></h1>
+                <h1 class="name font2 red-border"><%= fullname %></h1>
                 <h3 class="profession font1 red-border"><%= profession %></h3>
             </div>
             <div class="right-bottom red-border">

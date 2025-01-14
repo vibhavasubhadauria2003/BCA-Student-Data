@@ -1,4 +1,4 @@
-import { StudentData } from "../../data.js";
+import { StudentData } from "../../public/data/data.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
 const menuServing=asyncHandler(async(req,res)=>{
