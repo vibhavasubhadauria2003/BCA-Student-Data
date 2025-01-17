@@ -10,6 +10,7 @@ connectDB()
   .then(() => {
     app.listen(process.env.PORT || 7000, () => {
       console.log(`Server is runing at port : ${process.env.PORT}`);
+      console.log("http://localhost:7000/menu");
     });
   })
   .catch((err) => {
