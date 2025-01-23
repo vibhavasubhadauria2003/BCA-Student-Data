@@ -8,7 +8,8 @@ router.route("/register").get(registerServing);
 router.route("/submit").post(
     upload.fields([
         {
-            name:"profileImage"
+            name:"profileImage",
+            maxCount: 1
         }
     ]),
     registerUser)
