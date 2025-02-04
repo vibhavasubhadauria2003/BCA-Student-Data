@@ -31,10 +31,10 @@ const abhinav=new UserData(
     'Abhinav Pandey Currently persuing BCA from Dev Sanskriti Vishwavidyalaya (DSVV) Haridwar.',
     'Abhinav Pandey',
     'Student',
-    'unknown',
-    'unknown',
-    'unknown',
-    'unknown'
+    '24 January 2004',
+    'Nitya Prakash Pandey',
+    'Rekha Pandey',
+    'Sahajanpur, Uttar Pradesh'
 )
 const anshuman=new UserData(
     '/Anshuman',

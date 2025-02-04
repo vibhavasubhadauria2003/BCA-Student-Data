@@ -3,14 +3,14 @@ import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 7000, () => {
       console.log(`Server is runing at port : ${process.env.PORT}`);
-      console.log("http://localhost:7000/menu");
+      console.log(`http://localhost:${process.env.PORT}/menu`);
     });
   })
   .catch((err) => {
