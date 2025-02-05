@@ -25,6 +25,16 @@ const rohit_sharma=new UserData(
     'Mumbai'
 )
 
+const panav_pandya=new UserData(
+    '/pranav',
+    '/images/Dr.-Pranab-Pandya.JPG',
+    'Geeta ke nam pe humari lene vala',
+    'Dr.Pranab Pandya',
+    'Chutiya Banana',
+    '40 Feb 200004',
+    'jfjhsugh',
+    'efjoig'
+)
 const abhinav=new UserData(
     '/Abhinav',
     '/images/abhinav.jpg',
