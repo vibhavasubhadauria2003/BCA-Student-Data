@@ -20,10 +20,11 @@
                 <img class="red-border" src="<%= user.profileImage %>" alt="error">
             </div>
             <div class="student-name-container red-border">
-                <a class="student-name font1 red-border" href="http://localhost:7000/users<%= user.servename%>"><%= user.fullname%></a>
+                <a href="http://localhost:7000/users/user" data-name="<%= user.fullname %>" class="student-name font1 red-border"><%= user.fullname%></a>
             </div>
         </div>
         <% }); %>
     </div>
 </body>
+<script type="module" src="/js/menu.js"></script>
 </html>

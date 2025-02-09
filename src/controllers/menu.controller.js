@@ -1,4 +1,3 @@
-import { StudentData } from "../../public/data/data.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { User } from "../models/user.model.js";
 const menuServing=asyncHandler(async(req,res)=>{
@@ -10,4 +9,6 @@ const menuServing=asyncHandler(async(req,res)=>{
     }
 })
 
-export {menuServing};
+export {
+    menuServing
+};
