@@ -25,7 +25,7 @@ qu.forEach(element => {
     
         setTimeout(() => {
             window.location.href = this.href; // Navigate after timeout
-        }, 500); // 3-second delay
+        }, 900); // 3-second delay
     });
 });
 

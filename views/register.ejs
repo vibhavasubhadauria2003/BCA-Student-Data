@@ -5,49 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register User</title>
     <link rel="stylesheet" href="/css/register.user.css">
+    <link rel="stylesheet" href="/css/utility.css">
 </head>
 <body>
-    <div>
-        <div>
+    <div class="navbar red-border">
+        <div class="menu-button red-border">
             <a href="http://localhost:7000/menu">Menu</a>
         </div>
     </div>
     <form action="/submit" method="POST" enctype="multipart/form-data">
-        <div class="register-box">
-            <div>
-                <label for="profileImage">Profile Photo</label>
-                <input type="file" name="profileImage" id="profileImage" class="profileImage">
+        <div class="register-box red-border">
+            <div class="red-border input-box">
+                <label class="label font2" for="profileImage">Profile Photo</label>
+                <input class="input-area" type="file" name="profileImage" id="profileImage" class="profileImage">
             </div>
-            <div>
-                <label for="about">Tell me about you</label>
-                <input type="text" id="about" class="about" name="about">
+            <div class="red-border input-box">
+                <label class="label font2" for="about">Tell me about you</label>
+                <input class="input-area" type="text" id="about" class="about" name="about">
             </div>
-            <div>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" class="fullname" name="fullname">
+            <div class="red-border input-box">
+                <label class="label font2" for="fullname">Full Name</label>
+                <input class="input-area" type="text" id="fullname" class="fullname" name="fullname">
             </div>
-            <div>
-                <label for="profession">Enter your profession</label>
-                <input type="text" id="profession" class="profession" name="profession">
+            <div class="red-border input-box">
+                <label class="label font2" for="profession">Enter your profession</label>
+                <input class="input-area" type="text" id="profession" class="profession" name="profession">
             </div>
-            <div>
-                <label for="dob">Date od birth</label>
-                <input type="date" id="dob" class="dob" name="dob" id="dob">
+            <div class="red-border input-box">
+                <label class="label font2" for="dob">Date of birth</label>
+                <input class="input-area" type="date" id="dob" class="dob" name="dob" id="dob">
             </div>
-            <div>
-                <label for="father_name">Father's Name</label>
-                <input type="text" id="father_name" class="father_name" name="father_name">
+            <div class="red-border input-box">
+                <label class="label font2" for="father_name">Father's Name</label>
+                <input class="input-area" type="text" id="father_name" class="father_name" name="father_name">
             </div>
-            <div>
-                <label for="mother_name">Mother's Name</label>
-                <input type="text" id="mother_name" class="mother_name" name="mother_name">
+            <div class="red-border input-box">
+                <label class="label font2" for="mother_name">Mother's Name</label>
+                <input class="input-area" type="text" id="mother_name" class="mother_name" name="mother_name">
             </div>
-            <div>
-                <label for="user_location">Location</label>
-                <input type="text" id="user_location" class="user_location" name="user_location">
+            <div class="red-border input-box">
+                <label class="label font2" for="user_location">Location</label>
+                <input class="input-area" type="text" id="user_location" class="user_location" name="user_location">
             </div>
-            <div>
-                <button type="submit" id="Register">Register</button>
+            <div class="red-border submit-box">
+                <button class="submit" type="submit" id="Register">Register</button>
             </div>
         </div>
     </form>

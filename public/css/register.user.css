@@ -5,6 +5,53 @@ body{
     margin: 0;
     padding: 0;
 }
+.navbar{
+    margin-top: .8vh;
+    background-color: rgb(221, 152, 152);
+    height: 2.3vw;
+    padding: .5vw;
+}
+.menu-button{
+    display:inline-flex;
+}
+.menu-button a{
+    background-color: rgb(32, 21, 115);
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1.5vw;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .register-box{
+    background-color: rgb(18, 18, 18);
+    margin: .5vw;
+    border-radius: .5vw;
+    border: .01px solid rgb(18, 18, 18);
+}
+.input-box{
+    margin: .8vw;
+    padding: 1vw;
+    background-color: #272727;
+    border-radius: .7vw;
+}
+.label{
+    color: white;
+}
+.submit-box{
+    margin: 1vw;
+    padding: 1vw;
+}
+.submit{
+    padding: .8vw;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 1.5vw;
+}
+.input-area{
+    border-radius: 1vw;
     
+    padding: .2vw;
+    padding-left: .5vw;
 }

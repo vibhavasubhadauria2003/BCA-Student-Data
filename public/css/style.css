@@ -5,6 +5,25 @@ body{
     margin: 0;
     padding: 0;
 }
+.navbar{
+    margin-top: .8vh;
+    background-color: rgb(221, 152, 152);
+    height: 2.3vw;
+    padding: .5vw;
+}
+.menu-button{
+    display:inline-flex;
+}
+.menu-button a{
+    background-color: rgb(32, 21, 115);
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1.5vw;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .card{
     margin: 10px;
     border: 2px solid black;
