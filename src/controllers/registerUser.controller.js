@@ -3,6 +3,11 @@ import { ApiError } from "../utils/ApiError.js";
 import { User } from "../models/user.model.js";
 import {uploadOnCloudinary} from "../utils/cloudinary.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
+
+const registerServing=asyncHandler(async(req,res)=>{
+    res.render('register'); 
+})
+
 const registerUser=asyncHandler(async(req,res)=>{
     const {about,fullname,profession,dob,father_name,mother_name,user_location}=req.body;
     if(about===""||fullname===""||profession===""||dob===""||father_name===""||mother_name===""||user_location==="")
@@ -47,4 +52,4 @@ const registerUser=asyncHandler(async(req,res)=>{
         new ApiResponse(200,createdUser,"User Created on DB")
     )
 })
-export {registerUser};
+export {registerUser,registerServing};
