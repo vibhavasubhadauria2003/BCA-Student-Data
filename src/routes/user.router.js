@@ -1,9 +1,10 @@
 import { Router } from "express";
-import { userServing } from "../controllers/user.controller.js";
+import { userServing,deleteUser } from "../controllers/user.controller.js";
 import { User } from "../models/user.model.js";
 
 const router= Router();
 
-router.route("/:fullname").get(userServing)
+router.route("/:username").get(userServing);
+router.route("/delete/:username").get(deleteUser);
 
 export default router;

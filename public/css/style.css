@@ -90,3 +90,18 @@ body{
 .common-personal-info{
     font-size: 1.2vw;
 }
+.delete-button-box{
+    margin: 1vw;
+    margin-left: 3vw;
+    display: inline-block;
+}
+.delete-button{
+    background-color: #ff0000;
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1.5vw;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

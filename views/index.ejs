@@ -10,7 +10,7 @@
 <body id="body">
     <div class="navbar">
         <div class="menu-button">
-            <a href="http://localhost:7000/menu">Menu</a>
+            <a href="/menu">Menu</a>
         </div>
     </div>
       <div class="card flex po-relative bgDark border-box">
@@ -40,6 +40,9 @@
                 </div>
             </div>
             <div>
+                <div class="delete-button-box red-border">
+                    <a class="delete-button" href="/users/delete/<%= username %>">Delete</a>
+                </div>
             </div>
         </div>
       </div>

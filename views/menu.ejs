@@ -10,7 +10,7 @@
 <body>
     <div class="navbar red-border po-relative">
         <div class="register-button red-border">
-            <a href="http://localhost:7000/register">Register</a>
+            <a href="/register">Register</a>
         </div>
     </div>
     <div>
@@ -20,8 +20,9 @@
                 <img class="red-border" src="<%= user.profileImage %>" alt="error">
             </div>
             <div class="student-name-container red-border">
-                <a href="http://localhost:7000/users/<%= user.fullname %>" data-name="<%= user.fullname %>" class="student-name font1 red-border"><%= user.fullname%></a>
+                <a href="/users/<%= user.username %>" data-name="<%= user.fullname %>" class="student-name font1 red-border"><%= user.fullname%></a>
             </div>
+            
         </div>
         <% }); %>
     </div>

@@ -42,6 +42,7 @@ body{
     width: 7vw;
     height: 7vw;
     border-radius: 10vw;
+    object-fit: cover;
 }
 .student-name-container{
     padding: 3vw;
