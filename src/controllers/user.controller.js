@@ -5,12 +5,16 @@ import { ApiError } from "../utils/ApiError.js";
 import { deleteOnCloudinary } from "../utils/cloudinary.js";
 
 const userServing=asyncHandler(async(req,res)=>{
-    const {username}=req.params;;
+    const {username}=req.params;
     const user=await User.findOne({username});
     if(!user)
     {
         throw new ApiError(404,"User not found");
     }
+    // let date=user.dob.toISOString().split('T')[0];
+    // user.dob=date;
+    // await user.save({ validateBeforeSave: false });
+    // console.log(user.dob," ",date);
     res.render('index',user);
 });
 const deleteUser=asyncHandler(async(req,res)=>{

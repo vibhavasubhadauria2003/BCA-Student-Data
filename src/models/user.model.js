@@ -34,9 +34,8 @@ const userSchema = new Schema(
       index: true,
     },
     dob: {
-      type: String,
+      type: Date,
       required: true,
-      lowercase: true,
       trim: true,
     },
     father_name: {
@@ -62,6 +61,11 @@ const userSchema = new Schema(
     timestamps: true,
   }
 );
-
+userSchema.pre('save', function(next) {
+  if (this.dob) {
+    this.dob = new Date(this.dob.setHours(0, 0, 0, 0));
+  }
+  next();
+});
 
 export const User = mongoose.model("User", userSchema);

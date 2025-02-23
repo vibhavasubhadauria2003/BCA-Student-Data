@@ -32,7 +32,7 @@
                 <div class="personal-info-container red-border">
                     <h3 class="personal-info-heading font2 red-border">Personal Information</h3>
                     <div class="personal-info red-border">
-                        <div class="DOB red-border font3">Date of Birth : <%= dob %></div>
+                        <div class="DOB red-border font3">Date of Birth : <%= dob.toISOString().split('T')[0] %></div>
                         <div class="father-name red-border font3">Father's name : <%= father_name %></div>
                         <div class="mother-name red-border font3">Mother's name : <%= mother_name %></div>
                         <div class="location red-border font3">Location : <%= user_location %></div>
